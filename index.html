@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1>CALCULATOR</h1>
+            <input type="text" class="screen" placeholder="0" id="result">
+            <button class="btt" onclick="display(1)">1</button>
+            <button class="btt" onclick="display(2)">2</button>
+            <button class="btt" onclick="display(3)">3</button>
+            <button class="btt" onclick="display('/')">/</button>
+            <button class="btt" onclick="display(4)">4</button>
+            <button class="btt" onclick="display(5)">5</button>
+            <button class="btt" onclick="display(6)">6</button>
+            <button class="btt" onclick="display('*')">*</button>
+            <button class="btt" onclick="display(7)">7</button>
+            <button class="btt" onclick="display(8)">8</button>
+            <button class="btt" onclick="display(9)">9</button>
+            <button class="btt" onclick="display('-')">-</button>
+            <button class="btt" onclick="display('.')">.</button>
+            <button class="btt" onclick="display(0)">0</button>
+            <button class="btt" onclick="backspace()">⌫</button>
+            <button class="btt" onclick="display('+')">+</button>
+            <button class="btt" onclick="display('%')">%</button>
+            <button class="btt" onclick="allclear()">AC</button>
+            <button class="btt equal" onclick="evaluateexp()">=</button>
+
+        </div>
+    </div>
+</body>
+    <script src="./calc.js"></script>
+</html>
